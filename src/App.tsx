@@ -1,3 +1,5 @@
+import { List } from "./components/List";
+
 export function App() {
 
   return (
@@ -6,8 +8,8 @@ export function App() {
         <nav className='p-4 bg-slate-600'>
           <p className='text-xl font-bold text-white'>Rick and Morty</p>
         </nav>
+        <List />
       </div>
-      <h1>Teste</h1>
     </>
   )
 }
